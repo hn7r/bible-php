@@ -1,0 +1,19 @@
+{
+    "name": "hn7r/bible",
+    "description": "Utility code for Bible-based PHP applications.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hn7r\\Bible\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hn7r",
+            "email": "hamptoncode@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

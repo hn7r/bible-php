@@ -1,0 +1,25 @@
+<?php
+
+namespace Hn7r\Bible\Constant\Book;
+
+class FirstCorinthians
+{
+    public const array VERSES_PER_CHAPTER = [
+        1 => 31,
+        2 => 16,
+        3 => 23,
+        4 => 21,
+        5 => 13,
+        6 => 20,
+        7 => 40,
+        8 => 13,
+        9 => 27,
+        10 => 33,
+        11 => 34,
+        12 => 31,
+        13 => 13,
+        14 => 40,
+        15 => 58,
+        16 => 24,
+    ];
+}

@@ -1,0 +1,23 @@
+<?php
+
+namespace Hn7r\Bible\Constant\Book;
+
+class Hosea
+{
+    public const array VERSES_PER_CHAPTER = [
+        1 => 11,
+        2 => 23,
+        3 => 5,
+        4 => 19,
+        5 => 15,
+        6 => 11,
+        7 => 16,
+        8 => 14,
+        9 => 17,
+        10 => 15,
+        11 => 12,
+        12 => 14,
+        13 => 16,
+        14 => 9,
+    ];
+}

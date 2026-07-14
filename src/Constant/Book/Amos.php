@@ -1,0 +1,18 @@
+<?php
+
+namespace Hn7r\Bible\Constant\Book;
+
+class Amos
+{
+    public const array VERSES_PER_CHAPTER = [
+        1 => 15,
+        2 => 16,
+        3 => 15,
+        4 => 13,
+        5 => 27,
+        6 => 14,
+        7 => 17,
+        8 => 14,
+        9 => 15,
+    ];
+}

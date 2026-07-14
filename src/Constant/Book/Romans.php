@@ -1,0 +1,25 @@
+<?php
+
+namespace Hn7r\Bible\Constant\Book;
+
+class Romans
+{
+    public const array VERSES_PER_CHAPTER = [
+        1 => 32,
+        2 => 29,
+        3 => 31,
+        4 => 25,
+        5 => 21,
+        6 => 23,
+        7 => 25,
+        8 => 39,
+        9 => 33,
+        10 => 21,
+        11 => 36,
+        12 => 21,
+        13 => 14,
+        14 => 23,
+        15 => 33,
+        16 => 27,
+    ];
+}
