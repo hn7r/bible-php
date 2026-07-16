@@ -10,7 +10,7 @@ use Throwable;
 
 class BibleUtility
 {
-    private const array INVALID_FIRST_CHARACTERS = ['b', 'f', 'k', 'q', 'u', 'v', 'w', 'x', 'y', '0', '4', '5', '6', '7', '8', '9'];
+    private const array INVALID_FIRST_CHARACTERS = ['b', 'k', 'q', 'u', 'v', 'w', 'x', 'y', '0', '4', '5', '6', '7', '8', '9'];
 
     public static function isVerseIdSyntacticallyValid(string $id): bool
     {

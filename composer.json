@@ -8,6 +8,11 @@
             "Hn7r\\Bible\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Hn7r\\Bible\\Test\\": "test/"
+        }
+    },
     "authors": [
         {
             "name": "hn7r",
@@ -15,5 +20,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^13.3@dev"
+    }
 }
