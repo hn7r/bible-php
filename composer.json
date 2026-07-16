@@ -13,14 +13,17 @@
             "Hn7r\\Bible\\Test\\": "test/"
         }
     },
+    "scripts": {
+        "test": "phpunit"
+    },
     "authors": [
         {
             "name": "hn7r",
             "email": "hamptoncode@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require-dev": {
-        "phpunit/phpunit": "^13.3@dev"
+        "phpunit/phpunit": "^13.2"
     }
 }
