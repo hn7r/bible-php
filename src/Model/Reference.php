@@ -2,6 +2,7 @@
 
 namespace Hn7r\Bible\Model;
 
+use Hn7r\Bible\BibleUtility;
 use Hn7r\Bible\Enum\Book;
 use Hn7r\Bible\Exception\InvalidReferenceException;
 
@@ -38,7 +39,7 @@ readonly class Reference
      */
     public static function fromVerseId(string $id): self
     {
-        if (!preg_match('/^[0-6]{2}[01]\d{2}[01]\d{2}$/', $id)) {
+        if (!BibleUtility::isVerseIdSyntacticallyValid($id)) {
             throw new InvalidReferenceException("Invalid verse ID: $id");
         }
 

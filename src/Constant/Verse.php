@@ -7,6 +7,8 @@ use Hn7r\Bible\Enum\Book;
 
 class Verse
 {
+    public const string VERSE_ID_REGEX = '/^[0-6]{2}[01]\d{2}[01]\d{2}$/';
+
     public const array VERSES_PER_CHAPTER = [
         Book::Genesis->value => BookConstant\Genesis::VERSES_PER_CHAPTER,
         Book::Exodus->value => BookConstant\Exodus::VERSES_PER_CHAPTER,
